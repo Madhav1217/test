@@ -1,5 +1,0 @@
-FROM microsoft/dotnet:2.1-sdk AS build-env
-WORKDIR /MemberWorkflow
-RUN mkdir -p nugetpackages
-COPY . ./
-WORKDIR  "/MemberWorkflow/Utilities"
